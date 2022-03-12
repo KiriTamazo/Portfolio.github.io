@@ -174,7 +174,7 @@ img {
     background-color: var(--first-color);
 }
 
-.mav__logo {
+.nav__logo {
     color: var(--second-color);
 }
 
@@ -211,8 +211,8 @@ img {
 }
 
 .home__title {
-    font-size: var(--big-font-size);
-    margin-bottom: var(--mb-5);
+    font-size: var(--h2-font-size);
+    margin-bottom: var(--mb-2);
 }
 
 .home__title-color {
