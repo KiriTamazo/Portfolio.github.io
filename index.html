@@ -1,216 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portfolio</title>
-        <!-- <link href="css/aos.css" rel="stylesheet"> -->
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-        crossorigin="anonymous" />
-        <link rel="stylesheet" href="css/style.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- <link href="css/aos.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
 
 
 
-    </head>
-    <body>
+</head>
 
-        <!-- Header -->
-        <header class="l-header">
-            <nav class="nav bg-grid">
-                <div>
-                    <a href="#" class="nav__logo">LWHA</a>
+<body>
+
+    <!-- Header -->
+    <header class="l-header">
+        <nav class="nav bg-grid">
+            <div>
+                <a href="#" class="nav__logo">LWHA</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list ">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">Portfolio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+    <main class="l-main">
+        <!-- Home -->
+        <section class="home bg-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi, <br>I'm <span class="home__title-color">
+                        La Woon Htet Aung
+                    </span>
+                    <br>
+                    <span class="typer" id="main" data-words=" Web Developer., Front-end Developer." data-delay="100"
+                        data-deleteDelay="1000"></span>
+                    <span class="cursor" data-owner="main"></span>
+                </h1>
+                <a href="https://drive.google.com/uc?export=download&id=1wkDRlxCVwc12b8BcB7MPTWnSr_Z7se3J"
+                    class="button">Download CV</a>
+            </div>
+            <div class="home__social">
+                <a href="#" class="home__social-icon"><i class="fab fa-facebook-square"></i></a>
+                <a href="#" class="home__social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/KiriTamazo" class="home__social-icon"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="home__img">
+                <img src="img/Component 1 – 1.png" alt="">
+            </div>
+        </section>
+        <!-- About -->
+
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+            <div class="about__container bg-grid">
+                <div class="about__img">
+                    <img src="img/Component 2 – 1.png" class="skills__image" data-aos="fade-right" data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" data-aos-duration="800">
                 </div>
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list ">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link active">Home</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#about" class="nav__link">About</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#skills" class="nav__link">Skills</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#portfolio" class="nav__link active">Portfolio</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#contact" class="nav__link">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="fas fa-bars"></i>
-                </div>
-            </nav>
-        </header>
-        <main class="l-main">
-            <!-- Home -->
-            <section class="home bg-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Hi, <br>I'm <span class="home__title-color">
-                            La Woon Htet Aung
-                        </span>
-                        <br>
-                        <span class="typer" id="main" data-words=" Web Developer., Front-end Developer."
-                            data-delay="100" data-deleteDelay="1000"></span>
-                        <span class="cursor" data-owner="main"></span>
-                    </h1>
-                    <a href="https://drive.google.com/uc?export=download&id=1wkDRlxCVwc12b8BcB7MPTWnSr_Z7se3J" class="button">Download CV</a>
-                </div>
-                <div class="home__social">
-                    <a href="#" class="home__social-icon"><i class="fab fa-facebook-square"></i></a>
-                    <a href="#" class="home__social-icon"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/KiriTamazo" class="home__social-icon"><i class="fab fa-github"></i></a>
-                </div>
-                <div class="home__img">
-                    <img src="img/Component 1 – 1.png" alt="">
-                </div>
-            </section>
-            <!-- About -->
-
-            <section class="about section" id="about">
-                <h2 class="section-title">About</h2>
-                <div class="about__container bg-grid">
-                    <div class="about__img">
-                        <img src="img/Component 2 – 1.png" alt="" data-aos="fade-right" data-aos-offset="300"
-                            data-aos-easing="ease-in-sine" data-aos-duration="800">
-                    </div>
-                    <div class="about__content" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"
-                        data-aos-duration="1200">
-                        <h2 class="about__subtitle">
-                            I'm La Woon Htet Aung
-                        </h2>
-                        <p class="about__text">I'm junior web developer and seeking an oppotunity to extends my web
-                            development and multimedia editing skills and knowledge, especially in the Front-end Field
-                        </p>
-                    </div>
-                </div>
-            </section>
-            <!-- Skills -->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
-
-                <div class="skills__container bg-grid">
-                    <div class="skills__content" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
-                        data-aos-duration="1000">
-                        <h2 class="skills_subtitle">Professional Skills</h2>
-                        <p class="skills__text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, aspernatur sit. Aliquam
-                            inventore voluptates
-                        </p>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class="fab fa-html5 skills__icon"></i>
-                                <span class="skills__name">HTML5</span>
-                            </div>
-                            <div>
-                                <span class="skills__percentage">75%</span>
-                            </div>
-                            <div class="skills__bar skills__html"></div>
-                        </div>
-
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class="fab fa-css3 skills__icon"></i>
-                                <span class="skills__name">CSS</span>
-                            </div>
-                            <div>
-                                <span class="skills__percentage">65%</span>
-                            </div>
-                            <div class="skills__bar skills__css"></div>
-                        </div>
-
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class="fab fa-js-square skills__icon"></i> <span
-                                    class="skills__name">JAVASCRIPT</span>
-                            </div>
-                            <div>
-                                <span class="skills__percentage">55%</span>
-                            </div>
-                            <div class="skills__bar skills__js"></div>
-                        </div>
-
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class="fab fa-bootstrap skills__icon"></i> <span
-                                    class="skills__name">BOOTSTRAP</span>
-                            </div>
-                            <div>
-                                <span class="skills__percentage">65%</span>
-                            </div>
-                            <div class="skills__bar skills__bootstrap"></div>
-                        </div>
-
-
-                    </div>
-                    <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"
-                        data-aos-duration="1000">
-                        <img src="img/work3.jpg" alt="" class="skills__img">
-                    </div>
-            </section>
-            <!-- Work -->
-            <div class="section work" id="portfolio" data-aos="zoom-in-up" data-aos-offset="300" data-aos-easing="ease-in-sine"
-                data-aos-duration="1000">
-                <h2 class="section-title">Portfolio</h2>
-                <div class="work__container bg-grid">
-                    <div class="work__img">
-                        <a href="https://kiritamazo.github.io/OminiFood.github.io/#" target="_blank"><img src="img/kiritamazo.github.io_OminiFood.github.io_ (1).png" alt=""></a>
-                    </div>
-                    <div class="work__img">
-                        <a href="https://kiritamazo.github.io/Meteor.github.io/" target="_blank"><img src="img/kiritamazo.github.io_Meteor.github.io_.png" alt=""></a>
-                    </div>
-                    <div class="work__img">
-                        <a href="https://kiritamazo.github.io/Tasty.github.io/" target="_blank"><img src="img/kiritamazo.github.io_Tasty.github.io_.png" alt=""></a>
-                    </div>
-                    <div class="work__img">
-                        <img src="img/work4.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="img/work5.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="img/work6.jpg" alt="">
-                    </div>
+                <div class="about__content" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                    data-aos-duration="1200">
+                    <h2 class="about__subtitle">
+                        I'm La Woon Htet Aung
+                    </h2>
+                    <p class="about__text">I'm junior web developer and seeking an oppotunity to extend my web
+                        development and multimedia editing skills and knowledge, especially in the Front-end Field
+                    </p>
                 </div>
             </div>
+        </section>
+        <!-- Skills -->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
 
-            <!-- Contact -->
-            <section class="contact section" id="contact" data-aos="flip-right" data-aos-offset="300"
-                data-aos-easing="ease-in-sine" data-aos-duration="1000">
-                <h2 class="section-title">Contact</h2>
+            <div class="skills__container bg-grid">
+                <div class="skills__content" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                    data-aos-duration="1000">
+                    <h2 class="skills_subtitle">Professional Skills</h2>
+                    <p class="skills__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, aspernatur sit. Aliquam
+                        inventore voluptates
+                    </p>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="fab fa-html5 skills__icon"></i>
+                            <span class="skills__name">HTML5</span>
+                        </div>
+                        <div>
+                            <span class="skills__percentage">75%</span>
+                        </div>
+                        <div class="skills__bar skills__html"></div>
+                    </div>
 
-                <div class="contact__container bg-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="email" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="5" class="contact__input" placeholder="Comment" ></textarea>
-                        <input type="button" value="Send" class="contact__button button">
-                    </form>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="fab fa-css3 skills__icon"></i>
+                            <span class="skills__name">CSS</span>
+                        </div>
+                        <div>
+                            <span class="skills__percentage">65%</span>
+                        </div>
+                        <div class="skills__bar skills__css"></div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="fab fa-js-square skills__icon"></i> <span class="skills__name">JAVASCRIPT</span>
+                        </div>
+                        <div>
+                            <span class="skills__percentage">55%</span>
+                        </div>
+                        <div class="skills__bar skills__js"></div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="fab fa-bootstrap skills__icon"></i> <span class="skills__name">BOOTSTRAP</span>
+                        </div>
+                        <div>
+                            <span class="skills__percentage">65%</span>
+                        </div>
+                        <div class="skills__bar skills__bootstrap"></div>
+                    </div>
+
+
                 </div>
-            </section>
-        </main>
-
-
-        <!-- Footer -->
-        <footer class="footer">
-            <p class="footer__title">LWHA</p>
-            <div class="footer__social">
-                <a href="#" class="footer__icon"><i class="fab fa-facebook-square"></i></a>
-                <a href="#" class="footer__icon"><i class="fab fa-linkedin"></i></a>
-                <a href="#" class="footer__icon"><i class="fab fa-github"></i></a>
+                <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000">
+                    <img src="img/work3.jpg" alt="" class="skills__img">
+                </div>
+        </section>
+        <!-- Work -->
+        <section class="work section " id="portfolio" data-aos="zoom-in-up" data-aos-offset="300"
+        data-aos-easing="ease-in-sine" data-aos-duration="1000">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="work__container bg-grid">
+                <div class="work__img">
+                    <a href="https://kiritamazo.github.io/OminiFood.github.io/#" target="_blank"><img
+                            src="img/kiritamazo.github.io_OminiFood.github.io_ (1).png" alt=""></a>
+                </div>
+                <div class="work__img">
+                    <a href="https://kiritamazo.github.io/MeteorV2/" target="_blank"><img
+                            src="img/kiritamazo.github.io_Meteor.github.io_.png" alt=""></a>
+                </div>
+                <div class="work__img">
+                    <a href="https://kiritamazo.github.io/Tasty.github.io/" target="_blank"><img
+                            src="img/kiritamazo.github.io_Tasty.github.io_.png" alt=""></a>
+                </div>
+                <div class="work__img">
+                    <a href="https://kiritamazo.github.io/ProfileWebsite/" target="_blank"></a>
+                    <img src="img/kiritamazo.github.io_ProfileWebsite_ (1).png" alt="">
+                </div>
+                <div class="work__img">
+                    <img src="img/work5.jpg" alt="">
+                </div>
+                <div class="work__img">
+                    <img src="img/work6.jpg" alt="">
+                </div>
             </div>
-            <p>&#169; 2020 copyright all right reserved</p>
-        </footer>
+        </section>
 
-        <script src="js/jquery.min.js"></script>
-        <script src="js/jquery.waypoints.min.js"></script>
-        <script src="https://unpkg.com/scrollreveal"></script>
-        <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
-        <script src="js/app.js"></script>
-        <!-- <script src="js/aos.js"></script> -->
-    </body>
+        <!-- Contact -->
+        <section class="contact section" id="contact" data-aos="flip-right" data-aos-offset="300"
+            data-aos-easing="ease-in-sine" data-aos-duration="1000">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bg-grid">
+                <form action="" class="contact__form">
+                    <input type="text" placeholder="Name" class="contact__input">
+                    <input type="email" placeholder="Email" class="contact__input">
+                    <textarea name="" id="" cols="0" rows="5" class="contact__input" placeholder="Comment"></textarea>
+                    <input type="button" value="Send" class="contact__button button">
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p class="footer__title">LWHA</p>
+        <div class="footer__social">
+            <a href="#" class="footer__icon"><i class="fab fa-facebook-square"></i></a>
+            <a href="#" class="footer__icon"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="footer__icon"><i class="fab fa-github"></i></a>
+        </div>
+        <p>&#169; 2020 copyright all right reserved</p>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+    <script src="js/app.js"></script>
+    <!-- <script src="js/aos.js"></script> -->
+</body>
 
 </html>
